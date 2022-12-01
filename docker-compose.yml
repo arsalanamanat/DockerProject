@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+  dns-server:
+    build: ./
+    ports:
+      - "8001:3000"
